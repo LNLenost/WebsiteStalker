@@ -50,7 +50,7 @@ def main():
             print("Webpage modified! Playing notification sound...")
             play_notification_sound()
 
-        time.sleep(5)  # Check every 60 seconds
+        time.sleep(5)  # Check every 5 seconds
 
 if __name__ == "__main__":
     main()
